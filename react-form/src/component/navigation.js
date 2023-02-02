@@ -1,5 +1,5 @@
 import React from 'react'
-import LoginForm from './component/login-form';
+
 
 export default class Navbar extends React.Component {
     render() {
@@ -10,7 +10,6 @@ export default class Navbar extends React.Component {
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
             </nav>
-            <LoginForm />
             </div>
         );
     }
